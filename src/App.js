@@ -56,24 +56,24 @@ function App() {
   <div className="si-title">Student Achievements</div>
   <div className="si-body"><em>Please list the student’s achievements under one or several of the following headings:</em></div>
   <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Whakauru i te iwi whānui / Community or cultural involvement *</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder='For example:&#x0a;* Aroha ki kā takata - show manaaki to people at school, wider community&#x0a;* Kapa Haka member/Kaea&#x0a;* Participation in numerous whānau/community hui&#x0a;* Member of the Orchestra&#x0a;* Choir member'></textarea>
+  <label for="cultural-a" class="form-label">Whakauru i te iwi whānui / Community or cultural involvement *</label>
+  <textarea class="form-control" id="cultural-a" rows="6" placeholder='For example:&#x0a;* Aroha ki kā takata - show manaaki to people at school, wider community&#x0a;* Kapa Haka member/Kaea&#x0a;* Participation in numerous whānau/community hui&#x0a;* Member of the Orchestra&#x0a;* Choir member'></textarea>
   </div>
   <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Te ārahina / Leadership *</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder='For example:&#x0a;* Attendance at Hui Taihoi&#x0a;* Head boy/Girl&#x0a;* Prefect&#x0a;* Peer Support&#x0a;* Tū Mai Rakatahi&#x0a;* Ngā Manu Kо̄rero Representative'></textarea>
+  <label for="leadership-a" class="form-label">Te ārahina / Leadership *</label>
+  <textarea class="form-control" id="leadership-a" rows="7" placeholder='For example:&#x0a;* Attendance at Hui Taihoi&#x0a;* Head boy/Girl&#x0a;* Prefect&#x0a;* Peer Support&#x0a;* Tū Mai Rakatahi&#x0a;* Ngā Manu Kо̄rero Representative'></textarea>
   </div>
   <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Mātauraka / Academic *</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder='For example:&#x0a;* Australasian English Competitions&#x0a;* Hands-on at Otago&#x0a;* Please list subject/cirriculum strengths'></textarea>
+  <label for="academic-a" class="form-label">Mātauraka / Academic *</label>
+  <textarea class="form-control" id="academic-a" rows="7" placeholder='For example:&#x0a;* Australasian English Competitions&#x0a;* Hands-on at Otago&#x0a;* Please list subject/cirriculum strengths'></textarea>
   </div>
   <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Hākinakina / Sporting *</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder='For example:&#x0a;* Representative&#x0a;* Captain&#x0a;* Sporting Blues&#x0a;* Participation&#x0a;* Coaching'></textarea>
+  <label for="sporting-a" class="form-label">Hākinakina / Sporting *</label>
+  <textarea class="form-control" id="sporting-a" rows="6" placeholder='For example:&#x0a;* Representative&#x0a;* Captain&#x0a;* Sporting Blues&#x0a;* Participation&#x0a;* Coaching'></textarea>
   </div>
   <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">He kōrero tautoko anō / Other supporting information not previously covered</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='For example:&#x0a;* Please tell us about your future plans'></textarea>
+  <label for="other-a" class="form-label">He kōrero tautoko anō / Other supporting information not previously covered</label>
+  <textarea class="form-control" id="other-a" rows="3" placeholder='For example:&#x0a;* Please tell us about your future plans'></textarea>
   </div>
 
   <div className="si-title">Mana Pounamu Young Achiever Recipient Testimonial</div>
