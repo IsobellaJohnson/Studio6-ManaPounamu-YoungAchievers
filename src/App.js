@@ -48,11 +48,13 @@ function App() {
     <div class="input-group mb-3">
   <label class="input-group-text" for="inputGroupFile01">Upload</label>
   <input type="file" class="form-control" id="inputGroupFile01"></input>
+  <div className="si-body file-u"><em>Accepted file types: png, jpg, jpeg, docx, xlsx, pdf</em></div>
   </div>
   </div>
   </div>
 
   <div className="si-title">Student Achievements</div>
+  <div className="si-body"><em>Please list the student’s achievements under one or several of the following headings:</em></div>
   <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Whakauru i te iwi whānui / Community or cultural involvement *</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder='For example:&#x0a;* Aroha ki kā takata - show manaaki to people at school, wider community&#x0a;* Kapa Haka member/Kaea&#x0a;* Participation in numerous whānau/community hui&#x0a;* Member of the Orchestra&#x0a;* Choir member'></textarea>
@@ -75,6 +77,7 @@ function App() {
   </div>
 
   <div className="si-title">Mana Pounamu Young Achiever Recipient Testimonial</div>
+  <div className="si-body"><em>To be completed by the school principal or their nominee.</em></div>
   <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Nominee Testimonial*</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
@@ -91,6 +94,7 @@ function App() {
     </div>
 
     <div className="si-title">Mana Pounamu Young Achiever Recipient Whānau Endorsement</div>
+    <div className="si-body"><em>To be completed by a whānau member. Please tell us how wonderful your rakatahi is (include any information not previously covered).</em></div>
   <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Whanau Endorsement *</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
@@ -107,6 +111,7 @@ function App() {
     </div>
 
     <div className="si-title">Mana Pounamu Media Consent</div>
+    <div className="si-body"><em>Thank you for agreeing to participate in future promotions of Mana Pounamu. We would appreciate you completing this form as an indication that you understand the purposes for which your image/statements/artwork/name, and/or profile will be used.</em></div>
     <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
   <label class="form-check-label" for="flexCheckDefault">
