@@ -218,7 +218,6 @@ const  changee3 = (e)=>{
 
 
   return (
-  <div className="App">
     <div className="container">
       <form>
       <div className="si-title">Student Information</div>
@@ -381,7 +380,6 @@ const  changee3 = (e)=>{
   <button type="button" className="btn btn-primary sub-btn" onClick={fetchApi1} >Submit</button>
   </form>
     </div>
-  </div>
   );
 }
 
