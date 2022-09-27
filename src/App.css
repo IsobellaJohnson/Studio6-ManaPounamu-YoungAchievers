@@ -16,5 +16,14 @@ label{
   background-color: green;
   border: green;
 }
-
+table{
+  text-align: left;
+}
+th{
+ 
+  border: 1px solid ;
+}
+td{
+  border: 1px solid ;
+}
 
