@@ -1,6 +1,6 @@
 
 
-function Item3() {
+function Item3({content}) {
     return (
         <div className="Item3">
              <div className="Item2_title">Our values</div>
@@ -11,13 +11,13 @@ function Item3() {
             <div className ="Item3_flex">
 
                 {
-                    [1,1].map((item,index) =>{
+                    [1].map((item,index) =>{
                         return <div className="Item3_item">
                         <div className="Item3_title">
                         Quality
                         </div>
                         <div className="Item3_dec">
-                        Applying our values is what helps us thrive, enjoy what we do, and ship our best work.Applying our values is what helps us thrive, enjoy what we do, and ship our best work.Applying our values is what helps us thrive, enjoy what we do, and ship our best work.Applying our values is what helps us thrive, enjoy what we do, and ship our best work.Applying our values is what helps us thrive, enjoy what we do, and ship our best work.Applying our values is what helps us thrive, enjoy what we do, and ship our best work.Applying our values is what helps us 
+                        {content}
                         </div>
                         </div>
                     })
