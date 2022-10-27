@@ -43,44 +43,57 @@ a{
     background: #000;
 }
 .home_box{
-    width: 100%;
-    min-width: 1440px;
-    height: auto;
-    margin: 0px auto;
+
 }
-.h_item1{
-    width: 1440px;
-    margin: 0px auto;
+.g-container{
+    background-color: #f0f0f0;
+    padding-top: 50px;
+    padding-bottom: 30px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
-.swiper2{
-    width: 685px;
-    height: 386px;
-    border-radius: 20px;
-}
-.h_right{
-    width: 695px;
+.h_application{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
 }
 .h_title{
     color: #333;
-    font-size: 60px;
-    line-height: 1.3;
+    font-size: 30px;
+    width: 100%;
+    font-weight: 500;
 }
 .h_dec{
-    font-size: 30px;
-    color: #999999;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    color: #333;
 }
 .h_button{
     width: 439px;
     height: 96px;
     text-align: center;
-    line-height: 96px;
     border-radius: 15px;
+    line-height: 90px;
     background:  #DCFFDD;
     color: #339F34;
     margin-top: 30px;
     cursor: pointer;
+}
+.h_content{
+    width: 100%;
+    margin-left: 100px;
+}
+.whakatauki{
+    font-weight: bold;
+    margin-top: 50px;
 }
 .his-content{
     width: 50%;
@@ -135,9 +148,7 @@ a{
     text-align: center;
 }
 .swiper1Img{
-    width: 694px;
-    height: 533px;
-    border-radius: 20px;    
+  
 }
 .Item3{
     width: 1420px;
@@ -194,10 +205,4 @@ a{
     width: 736px;
     font-size: 30px;
     white-space: nowrap;
-}
-.swiper2_box{
-    width: 694px;
-    height: 533px;
-    border-radius: 20px; 
-    overflow: hidden;
 }

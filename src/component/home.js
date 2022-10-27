@@ -1,4 +1,4 @@
-import swiper2 from '../static/swiper2.png'
+import swiper from '../static/swiper.jpeg'
 import logo from '../static/swiper1.png'
 import Item2 from './item2';
 import ItemSwiper from './itemSwiper';
@@ -16,6 +16,7 @@ function History() {
     return (
         <div className="home_box">
            <div style = {{height:"42px"}}></div>
+           <div className="g-container">
            <div className="h_item1">
                 <div className="swiper2_box">
                 <Swiper
@@ -25,37 +26,31 @@ function History() {
                 }}
                 modules={[EffectFade,Pagination]}
                  >
-                <SwiperSlide><img src ={swiper2} alt="swiper2" className="swiper1Img" /></SwiperSlide>
+                <SwiperSlide><img src ={swiper} alt="swiper2" className="swiper1Img" /></SwiperSlide>
                 <SwiperSlide><img src ={logo} alt="swiper2" className="swiper1Img" /></SwiperSlide>
-                <SwiperSlide><img src ={swiper2} alt="swiper2" className="swiper1Img" /></SwiperSlide>
+                <SwiperSlide><img src ={swiper} alt="swiper2" className="swiper1Img" /></SwiperSlide>
                 <SwiperSlide><img src ={logo} alt="swiper2" className="swiper1Img" /></SwiperSlide>
-                <SwiperSlide><img src ={swiper2} alt="swiper2" className="swiper1Img" /></SwiperSlide>
+                <SwiperSlide><img src ={swiper} alt="swiper2" className="swiper1Img" /></SwiperSlide>
                 </Swiper>
                 </div>
-                <div className ="h_right">
+                </div>
+                <div className ="h_application">
                     <div className ="h_title">
-                    Celebrating Māori<br/>
-                     achievement in Otago
+                    Celebrating Māori achievement in Otago Secondary Schools<br/>
+                    He tāoka, he koha, he kuru pounamu
                     </div>
                     <div className ="h_dec">
-                The awards ceremony is an opportunity to<br/> celebrate the achievement of rakatahi Māori in 
+                    The awards ceremony is an opportunity to celebrate the achievement of rakatahi Māori in Otago Secondary Schools.
                    </div>
                    <div className ="h_button">
                    <Link to='/appfrom'>Application Form</Link>
                    </div>
                 </div>
-           </div>
-           <div style = {{height:"42px"}}></div>
-           <Item2/>
-           <div style = {{height:"100px"}}></div>
-           <ItemSwiper/>
-           <div style = {{height:"70px"}}></div>
-           <Item3/>
-           <div style = {{height:"100px"}}></div>
-           <Item4/>
-           <div style = {{height:"170px"}}></div>
-           <Footer/>
-           <div style = {{height:"75px"}}></div>
+                </div>
+                <div className="h_info">
+                <p className="h_content whakatauki">E te iwi e...tēnā tātou. E rere ana ngā mihi ki a koutou, tātou e noho motu ana ki tēnā kura, ki tēnā kura </p>
+                <p className="h_content">The objectives of these awards are to: </p>
+                </div>
         </div>
     )
 }
