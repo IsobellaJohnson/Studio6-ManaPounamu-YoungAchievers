@@ -66,12 +66,12 @@ a{
 }
 .h_title{
     color: #333;
-    font-size: 30px;
+    font-size: 35px;
     width: 100%;
     font-weight: 500;
 }
 .h_dec{
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 20px;
     width: 100%;
     color: #333;
@@ -79,6 +79,7 @@ a{
 .h_button{
     width: 439px;
     height: 96px;
+    font-size: 20px;
     text-align: center;
     border-radius: 15px;
     line-height: 90px;
@@ -86,6 +87,11 @@ a{
     color: #339F34;
     margin-top: 30px;
     cursor: pointer;
+}
+.home_content{
+    width: 75%;
+    margin-left: 100px;
+    font-size: 20px;
 }
 .h_content{
     width: 100%;
@@ -147,7 +153,11 @@ a{
     margin: 0px auto;
     text-align: center;
 }
+.swiper2_box{
+    width: 500px;
+}
 .swiper1Img{
+    width: 100%;
   
 }
 .Item3{

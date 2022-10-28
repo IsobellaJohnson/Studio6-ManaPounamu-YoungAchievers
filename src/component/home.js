@@ -12,6 +12,7 @@ import 'swiper/css';
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 
+//hold tight che fu down time aaradna star of the show latasha lee, like water ladi 6, fallin alicia keys, ex-factor lauren hill,
 function History() {
     return (
         <div className="home_box">
@@ -48,10 +49,20 @@ function History() {
                 </div>
                 </div>
                 <div className="h_info">
-                <p className="h_content whakatauki">E te iwi e...tēnā tātou. E rere ana ngā mihi ki a koutou, tātou e noho motu ana ki tēnā kura, ki tēnā kura </p>
-                <p className="h_content">The objectives of these awards are to: </p>
+                <p className="home_content whakatauki">E te iwi e...tēnā tātou. E rere ana ngā mihi ki a koutou, tātou e noho motu ana ki tēnā kura, ki tēnā kura </p>
+                <div style = {{height:"42px"}}></div>
+                <p className="home_content">Tēnā koutou e te whānau.  The COVID-19 pandemic has had a significant impact on our ability to celebrate the Mana Pounamu Awards however, schools and communities heartened us for taking up the challenge to celebrate their Mana Pounamu recipients in your own unique ways. Kei ruka noa atu koutou.  </p>
+                <p className="home_content">This year the Mana Pounamu Komiti are thrilled to announce that we will be hosting our annual celebration evening of Mana Pounamu recipients on Friday 28th October 2022! </p>
+                <p className="home_content">Nominations for this award open <strong>Monday, 15th August 2022</strong> and are open until<strong> Friday, 9th September 2022, 12noon,</strong> and can be made via the form on this website.  </p>
+                <p className="home_content">As with previous years, we look forward to receiving your nominees as they continue to inspire us with their values and achievements and thank you for your continued efforts to prepare and empower all students for their further tertiary studies. </p>
+                <p className="home_content">The Web based application is now live!  <a style={{color:"#339F34"}}href="https://manapounamu.org.nz/forms">https://manapounamu.org.nz/forms</a></p>
+                <p className="home_content">We look forward to receiving your nominees as they continue to inspire us with their values and achievements. </p>
                 </div>
+                <div style = {{height:"150px"}}></div>
+                <Footer/>
+                <div style = {{height:"42px"}}></div>
         </div>
+
     )
 }
 
