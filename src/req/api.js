@@ -136,3 +136,49 @@ export const save6 = (data) =>{
         })
     })
 }
+export const save7 = (data) =>{
+    return new Promise((r1,r2)=>{
+        axios.get(`${baseUrl}/content-manager/collection-types/api::student-form.student-form?page=${data.page}&pageSize=${data.pageSize}&sort=${data.sort}`,{
+            headers:{
+                Authorization:'Bearer ' + token
+            }
+        })
+        .then(res => {
+            r1(res);
+            console.log(6,res);
+        }).catch(err =>{
+            console.log(6,err)
+        })
+    })
+}
+export const save8 = (id) =>{
+    return new Promise((r1,r2)=>{
+        axios.delete(`${baseUrl}/content-manager/collection-types/api::student-form.student-form/${id}`,{
+            headers:{
+                Authorization:'Bearer ' + token
+            }
+        })
+        .then(res => {
+            r1(res);
+            console.log('delete',res);
+        }).catch(err =>{
+            console.log('delete',err)
+        })
+    })
+}
+export const save9 = (data) =>{
+    return new Promise((r1,r2)=>{
+        axios.post(`${baseUrl}/content-manager/collection-types/api::student-form.student-form`,data,{
+            headers:{
+                'Content-Type': 'application/x-www-form-urlencoded',
+                Authorization:'Bearer ' + token
+            }
+        })
+        .then(res => {
+            r1(res);
+            console.log('save',res);
+        }).catch(err =>{
+            console.log('save',err)
+        })
+    })
+}
